@@ -1,0 +1,93 @@
+/* Background and Centering */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url("../assets/bg.jpg") no-repeat center center/cover;
+}
+
+/* Centered Form */
+.auth-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(31, 15, 15, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 200px; /* Adjust the size */
+  height: auto;
+}
+.logo {
+  height: 4em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #2600ff);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #05ee52d7);
+}
+
+/* Headings */
+.auth-form h2 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+/* Input Fields */
+.auth-form input {
+  width: 70%;
+  padding: 12px;
+  color: black;
+  margin: 10px 0;
+  background-color: #dfdfdf;
+  border: 1px solid #ccc;
+  border-radius: 23px;
+  text-align: center;
+}
+
+/* Buttons */
+.auth-form button {
+  width: 70%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 23px;
+  cursor: pointer;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.auth-form button:hover {
+  background-color: #45a049;
+}
+
+/* Secondary Button */
+.secondary-btn {
+  background-color: #7bce95;
+}
+
+.secondary-btn:hover {
+  background-color: #5fa578;
+}
+
+/* Error message */
+.auth-form p {
+  color: #d9534f;
+  font-size: 14px;
+  text-align: center;
+}
